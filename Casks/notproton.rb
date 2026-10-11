@@ -1,6 +1,6 @@
 cask "notproton" do
-  version "1.1.5"
-  sha256 "a2fd1b4e87dbc9526f48509301229cde151082bfdae456f75fd3ecc1c60a7a27"
+  version "1.1.6"
+  sha256 "f53b8f42df99a3f2793c2cfb23c1ece5538b5a2ec6a389fa0b4ec2905323b6ab"
 
   url "https://github.com/NotProtonNot/NotProton/releases/download/v#{version}/NotProton.zip"
   name "NotProton"
@@ -14,7 +14,7 @@ cask "notproton" do
 
   auto_updates true
   depends_on arch: :arm64
-  depends_on macos: :tahoe
+  depends_on macos: :sequoia
 
   app "NotProton.app"
 
