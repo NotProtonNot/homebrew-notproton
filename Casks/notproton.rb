@@ -1,6 +1,6 @@
 cask "notproton" do
-  version "1.2.4"
-  sha256 "196ea6e0a93dfe8d0cf16292bdff83f14aaeb5a6ad817b91838bb1316052d053"
+  version "1.2.6"
+  sha256 "595e6d6293a8372dd06c4fce423df39764c5986fb1577cd3af1ee3296ea0188a"
 
   url "https://github.com/NotProtonNot/NotProton/releases/download/v#{version}/NotProton.zip"
   name "NotProton"
